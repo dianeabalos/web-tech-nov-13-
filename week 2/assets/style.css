@@ -1,0 +1,130 @@
+html {
+  border-top: 8px solid rgb(83, 170, 194);
+}
+
+h1 {
+  color: rgb(83, 170, 194);
+  margin: auto;
+  font-family: sans-serif;
+}
+
+h2 {
+  padding-top: 20px;
+}
+
+h2,
+h3 {
+  color: rgb(83, 170, 194);
+}
+
+.laura {
+  vertical-align: middle;
+}
+
+nav {
+  color: rgb(83, 170, 194);
+  font-family: sans-serif;
+  padding-left: 10 px;
+  text-decoration: none;
+  font-size: 13px;
+  float: right;
+  font-size: 15px;
+  margin-top: -40px;
+  vertical-align: middle;
+  padding-top: 10px;
+}
+
+a:hover {
+  font-size: large;
+}
+
+a:link {
+  background-color: transparent;
+  color: rgb(83, 170, 194);
+  padding-left: 10px;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(83, 170, 194);
+}
+
+a:active {
+  background-color: yellow;
+}
+
+h2::after {
+  content: "TOP";
+  background-color: rgb(242, 213, 96);
+  font-size: 11px;
+  color: black;
+  position: absolute;
+  padding: 5px;
+}
+
+div {
+  max-width: 500px;
+  margin: auto;
+  font-family: sans-serif;
+}
+
+header {
+  background-color: rgb(247, 247, 248);
+  padding: 10px;
+  width: 800px;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+button {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+}
+
+.related {
+  text-align: center;
+}
+
+hr {
+  margin-left: auto;
+  margin-right: auto;
+  border-color: rgb(83, 170, 194);
+  border-style: block;
+  border-width: thick;
+}
+
+.post {
+  padding-left: 50px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.pics {
+  float: left;
+}
+
+aside {
+  font-size: smaller;
+  border-top: solid rgb(83, 170, 194);
+  border-bottom: solid rgb(83, 170, 194);
+  background-color: rgb(247, 247, 248);
+
+  height: 280px;
+  width: 180px;
+  position: absolute;
+  top: 120px;
+  right: 150px;
+  background: rgb(247, 247, 248);
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding: 20px;
+  float: right;
+}
+
+footer {
+  margin-top: 50px;
+  font-size: 9px;
+}
